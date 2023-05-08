@@ -1,0 +1,61 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style: none;
+}
+body {
+
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+main {
+    flex-grow: 1;
+    margin-left: 7vw;
+    margin-right: 7vw;
+}
+
+.desativado {
+    display: none !important;
+}
+
+
+:root {
+    --btn-bg: #3b3b3b;
+    --bg-menu-ativo: #979797;
+    --btn-color: #FFFF;
+    --title-color: #000;
+    --p-color: #2D2D2D;
+    --input-color: #828282;
+    --input-bg: #EDEDED;
+    --mobile-menu-detail-bg: #EEEEEE;
+    --font-size-title-mobile: 2.188rem;
+    --font-size-p-mobile: 1.5rem;
+    --font-size-mobile-input: 1.1rem;
+}
+
+.titulo {
+    font-size: var(--font-size-title-mobile);
+    color: var(--title-color);
+    font-family: 'Francois One';
+}
+
+.paragrafo {
+    font-family: karla;
+    color: var(--p-color);
+    font-size: var(--font-size-p-mobile);
+}
+
+.btn-artigo {
+    font-size: var(--font-size-p-mobile);
+    font-family: karla;
+    border-radius: 5px;
+    margin-top: 22px;
+    width: fit-content;
+    display: block;
+    background: var(--btn-bg);
+    color: var(--btn-color);
+    padding: 8px 50px;
+}
+
