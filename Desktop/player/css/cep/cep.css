@@ -21,6 +21,7 @@
     box-shadow: 1px 1px 1em rgb(226, 226, 226);
 }
 .input-container {
+    max-width: calc(100vw - 14vw);
     gap: 1.5rem;
     display: flex;
     align-items: center;
@@ -32,11 +33,13 @@
 
 .label {
     min-width: 6ch;
+    max-width: 6ch;
     font-size: var(--font-size-p-mobile);
     font-family: karla;
 }
 
 .input-container input {
+    width: calc(100vw - (1.5rem + 85.5px) - 14vw);
     padding: .5rem;
     font-size: var(--font-size-mobile-input);
     border-radius: 5px;
@@ -44,11 +47,12 @@
     border: none;
     color: var(--input-color);
 }
-form {
+.formulario {
+    max-width: calc(100vw - 14vw);
     margin-bottom: 2rem;
 }
 
-form .btn-artigo {
+.formulario .btn-artigo {
     padding-left: 2rem;
     padding-right: 2rem;
     margin: 1.7rem auto 4rem auto;

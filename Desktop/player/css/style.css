@@ -1,11 +1,11 @@
 
 /*utilidades*/
-@import "./utilidades/utilidades.css";
+@import "utilidades/utilidades.css";
 
 /*global*/
-@import "./global/header.css";
-@import "./global/post.css";
-@import "./global/footer.css";
+@import "global/header.css";
+@import "global/post.css";
+@import "global/footer.css";
 
 /* pagina cep*/
-@import "./cep/cep.css"
+@import "cep/cep.css"
