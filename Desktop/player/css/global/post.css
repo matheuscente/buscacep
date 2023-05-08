@@ -1,0 +1,9 @@
+article {
+    width: 80vw;
+}
+
+article .titulo {
+    margin-top: 60px;
+    margin-bottom: 15px;
+}
+
